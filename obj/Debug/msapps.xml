@@ -1,0 +1,1238 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+msapps
+</name>
+</assembly>
+<members>
+<member name="M:msapps.ASPNETDBEntities.#ctor">
+	<summary>
+ Initializes a new ASPNETDBEntities object using the connection string found in the 'ASPNETDBEntities' section of the application configuration file.
+ </summary>
+</member><member name="M:msapps.ASPNETDBEntities.#ctor(System.String)">
+	<summary>
+ Initialize a new ASPNETDBEntities object.
+ </summary>
+</member><member name="M:msapps.ASPNETDBEntities.#ctor(System.Data.EntityClient.EntityConnection)">
+	<summary>
+ Initialize a new ASPNETDBEntities object.
+ </summary>
+</member><member name="P:msapps.ASPNETDBEntities.aspnet_Applications">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.ASPNETDBEntities.aspnet_Membership">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.ASPNETDBEntities.aspnet_Paths">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.ASPNETDBEntities.aspnet_PersonalizationAllUsers">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.ASPNETDBEntities.aspnet_PersonalizationPerUser">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.ASPNETDBEntities.aspnet_Profile">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.ASPNETDBEntities.aspnet_Roles">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.ASPNETDBEntities.aspnet_SchemaVersions">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.ASPNETDBEntities.aspnet_Users">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.ASPNETDBEntities.aspnet_WebEvent_Events">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.ASPNETDBEntities.sysdiagrams">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.ASPNETDBEntities.vw_aspnet_Applications">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.ASPNETDBEntities.vw_aspnet_MembershipUsers">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.ASPNETDBEntities.vw_aspnet_Profiles">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.ASPNETDBEntities.vw_aspnet_Roles">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.ASPNETDBEntities.vw_aspnet_Users">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.ASPNETDBEntities.vw_aspnet_UsersInRoles">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.ASPNETDBEntities.vw_aspnet_WebPartState_Paths">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.ASPNETDBEntities.vw_aspnet_WebPartState_Shared">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.ASPNETDBEntities.vw_aspnet_WebPartState_User">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:msapps.ASPNETDBEntities.AddToaspnet_Applications(msapps.aspnet_Applications)">
+	<summary>
+ Deprecated Method for adding a new object to the aspnet_Applications EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:msapps.ASPNETDBEntities.AddToaspnet_Membership(msapps.aspnet_Membership)">
+	<summary>
+ Deprecated Method for adding a new object to the aspnet_Membership EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:msapps.ASPNETDBEntities.AddToaspnet_Paths(msapps.aspnet_Paths)">
+	<summary>
+ Deprecated Method for adding a new object to the aspnet_Paths EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:msapps.ASPNETDBEntities.AddToaspnet_PersonalizationAllUsers(msapps.aspnet_PersonalizationAllUsers)">
+	<summary>
+ Deprecated Method for adding a new object to the aspnet_PersonalizationAllUsers EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:msapps.ASPNETDBEntities.AddToaspnet_PersonalizationPerUser(msapps.aspnet_PersonalizationPerUser)">
+	<summary>
+ Deprecated Method for adding a new object to the aspnet_PersonalizationPerUser EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:msapps.ASPNETDBEntities.AddToaspnet_Profile(msapps.aspnet_Profile)">
+	<summary>
+ Deprecated Method for adding a new object to the aspnet_Profile EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:msapps.ASPNETDBEntities.AddToaspnet_Roles(msapps.aspnet_Roles)">
+	<summary>
+ Deprecated Method for adding a new object to the aspnet_Roles EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:msapps.ASPNETDBEntities.AddToaspnet_SchemaVersions(msapps.aspnet_SchemaVersions)">
+	<summary>
+ Deprecated Method for adding a new object to the aspnet_SchemaVersions EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:msapps.ASPNETDBEntities.AddToaspnet_Users(msapps.aspnet_Users)">
+	<summary>
+ Deprecated Method for adding a new object to the aspnet_Users EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:msapps.ASPNETDBEntities.AddToaspnet_WebEvent_Events(msapps.aspnet_WebEvent_Events)">
+	<summary>
+ Deprecated Method for adding a new object to the aspnet_WebEvent_Events EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:msapps.ASPNETDBEntities.AddTosysdiagrams(msapps.sysdiagram)">
+	<summary>
+ Deprecated Method for adding a new object to the sysdiagrams EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:msapps.ASPNETDBEntities.AddTovw_aspnet_Applications(msapps.vw_aspnet_Applications)">
+	<summary>
+ Deprecated Method for adding a new object to the vw_aspnet_Applications EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:msapps.ASPNETDBEntities.AddTovw_aspnet_MembershipUsers(msapps.vw_aspnet_MembershipUsers)">
+	<summary>
+ Deprecated Method for adding a new object to the vw_aspnet_MembershipUsers EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:msapps.ASPNETDBEntities.AddTovw_aspnet_Profiles(msapps.vw_aspnet_Profiles)">
+	<summary>
+ Deprecated Method for adding a new object to the vw_aspnet_Profiles EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:msapps.ASPNETDBEntities.AddTovw_aspnet_Roles(msapps.vw_aspnet_Roles)">
+	<summary>
+ Deprecated Method for adding a new object to the vw_aspnet_Roles EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:msapps.ASPNETDBEntities.AddTovw_aspnet_Users(msapps.vw_aspnet_Users)">
+	<summary>
+ Deprecated Method for adding a new object to the vw_aspnet_Users EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:msapps.ASPNETDBEntities.AddTovw_aspnet_UsersInRoles(msapps.vw_aspnet_UsersInRoles)">
+	<summary>
+ Deprecated Method for adding a new object to the vw_aspnet_UsersInRoles EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:msapps.ASPNETDBEntities.AddTovw_aspnet_WebPartState_Paths(msapps.vw_aspnet_WebPartState_Paths)">
+	<summary>
+ Deprecated Method for adding a new object to the vw_aspnet_WebPartState_Paths EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:msapps.ASPNETDBEntities.AddTovw_aspnet_WebPartState_Shared(msapps.vw_aspnet_WebPartState_Shared)">
+	<summary>
+ Deprecated Method for adding a new object to the vw_aspnet_WebPartState_Shared EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:msapps.ASPNETDBEntities.AddTovw_aspnet_WebPartState_User(msapps.vw_aspnet_WebPartState_User)">
+	<summary>
+ Deprecated Method for adding a new object to the vw_aspnet_WebPartState_User EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="T:msapps.ASPNETDBEntities">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:msapps.aspnet_Applications.Createaspnet_Applications(System.String,System.String,System.Guid)">
+	<summary>
+ Create a new aspnet_Applications object.
+ </summary>
+	<param name="applicationName">Initial value of the ApplicationName property.</param>
+	<param name="loweredApplicationName">Initial value of the LoweredApplicationName property.</param>
+	<param name="applicationId">Initial value of the ApplicationId property.</param>
+</member><member name="P:msapps.aspnet_Applications.ApplicationName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Applications.LoweredApplicationName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Applications.ApplicationId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Applications.Description">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Applications.aspnet_Membership">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Applications.aspnet_Paths">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Applications.aspnet_Roles">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Applications.aspnet_Users">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:msapps.aspnet_Applications">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:msapps.aspnet_Membership.Createaspnet_Membership(System.Guid,System.Guid,System.String,System.Int32,System.String,System.Boolean,System.Boolean,System.DateTime,System.DateTime,System.DateTime,System.DateTime,System.Int32,System.DateTime,System.Int32,System.DateTime)">
+	<summary>
+ Create a new aspnet_Membership object.
+ </summary>
+	<param name="applicationId">Initial value of the ApplicationId property.</param>
+	<param name="userId">Initial value of the UserId property.</param>
+	<param name="password">Initial value of the Password property.</param>
+	<param name="passwordFormat">Initial value of the PasswordFormat property.</param>
+	<param name="passwordSalt">Initial value of the PasswordSalt property.</param>
+	<param name="isApproved">Initial value of the IsApproved property.</param>
+	<param name="isLockedOut">Initial value of the IsLockedOut property.</param>
+	<param name="createDate">Initial value of the CreateDate property.</param>
+	<param name="lastLoginDate">Initial value of the LastLoginDate property.</param>
+	<param name="lastPasswordChangedDate">Initial value of the LastPasswordChangedDate property.</param>
+	<param name="lastLockoutDate">Initial value of the LastLockoutDate property.</param>
+	<param name="failedPasswordAttemptCount">Initial value of the FailedPasswordAttemptCount property.</param>
+	<param name="failedPasswordAttemptWindowStart">Initial value of the FailedPasswordAttemptWindowStart property.</param>
+	<param name="failedPasswordAnswerAttemptCount">Initial value of the FailedPasswordAnswerAttemptCount property.</param>
+	<param name="failedPasswordAnswerAttemptWindowStart">Initial value of the FailedPasswordAnswerAttemptWindowStart property.</param>
+</member><member name="P:msapps.aspnet_Membership.ApplicationId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Membership.UserId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Membership.Password">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Membership.PasswordFormat">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Membership.PasswordSalt">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Membership.MobilePIN">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Membership.Email">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Membership.LoweredEmail">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Membership.PasswordQuestion">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Membership.PasswordAnswer">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Membership.IsApproved">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Membership.IsLockedOut">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Membership.CreateDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Membership.LastLoginDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Membership.LastPasswordChangedDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Membership.LastLockoutDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Membership.FailedPasswordAttemptCount">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Membership.FailedPasswordAttemptWindowStart">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Membership.FailedPasswordAnswerAttemptCount">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Membership.FailedPasswordAnswerAttemptWindowStart">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Membership.Comment">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Membership.aspnet_Applications">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Membership.aspnet_ApplicationsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Membership.aspnet_Users">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Membership.aspnet_UsersReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:msapps.aspnet_Membership">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:msapps.aspnet_Paths.Createaspnet_Paths(System.Guid,System.Guid,System.String,System.String)">
+	<summary>
+ Create a new aspnet_Paths object.
+ </summary>
+	<param name="applicationId">Initial value of the ApplicationId property.</param>
+	<param name="pathId">Initial value of the PathId property.</param>
+	<param name="path">Initial value of the Path property.</param>
+	<param name="loweredPath">Initial value of the LoweredPath property.</param>
+</member><member name="P:msapps.aspnet_Paths.ApplicationId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Paths.PathId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Paths.Path">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Paths.LoweredPath">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Paths.aspnet_Applications">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Paths.aspnet_ApplicationsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Paths.aspnet_PersonalizationAllUsers">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Paths.aspnet_PersonalizationAllUsersReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Paths.aspnet_PersonalizationPerUser">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:msapps.aspnet_Paths">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:msapps.aspnet_PersonalizationAllUsers.Createaspnet_PersonalizationAllUsers(System.Guid,System.Byte[],System.DateTime)">
+	<summary>
+ Create a new aspnet_PersonalizationAllUsers object.
+ </summary>
+	<param name="pathId">Initial value of the PathId property.</param>
+	<param name="pageSettings">Initial value of the PageSettings property.</param>
+	<param name="lastUpdatedDate">Initial value of the LastUpdatedDate property.</param>
+</member><member name="P:msapps.aspnet_PersonalizationAllUsers.PathId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_PersonalizationAllUsers.PageSettings">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_PersonalizationAllUsers.LastUpdatedDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_PersonalizationAllUsers.aspnet_Paths">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_PersonalizationAllUsers.aspnet_PathsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:msapps.aspnet_PersonalizationAllUsers">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:msapps.aspnet_PersonalizationPerUser.Createaspnet_PersonalizationPerUser(System.Guid,System.Byte[],System.DateTime)">
+	<summary>
+ Create a new aspnet_PersonalizationPerUser object.
+ </summary>
+	<param name="id">Initial value of the Id property.</param>
+	<param name="pageSettings">Initial value of the PageSettings property.</param>
+	<param name="lastUpdatedDate">Initial value of the LastUpdatedDate property.</param>
+</member><member name="P:msapps.aspnet_PersonalizationPerUser.Id">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_PersonalizationPerUser.PathId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_PersonalizationPerUser.UserId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_PersonalizationPerUser.PageSettings">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_PersonalizationPerUser.LastUpdatedDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_PersonalizationPerUser.aspnet_Paths">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_PersonalizationPerUser.aspnet_PathsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_PersonalizationPerUser.aspnet_Users">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_PersonalizationPerUser.aspnet_UsersReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:msapps.aspnet_PersonalizationPerUser">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:msapps.aspnet_Profile.Createaspnet_Profile(System.Guid,System.String,System.String,System.Byte[],System.DateTime)">
+	<summary>
+ Create a new aspnet_Profile object.
+ </summary>
+	<param name="userId">Initial value of the UserId property.</param>
+	<param name="propertyNames">Initial value of the PropertyNames property.</param>
+	<param name="propertyValuesString">Initial value of the PropertyValuesString property.</param>
+	<param name="propertyValuesBinary">Initial value of the PropertyValuesBinary property.</param>
+	<param name="lastUpdatedDate">Initial value of the LastUpdatedDate property.</param>
+</member><member name="P:msapps.aspnet_Profile.UserId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Profile.PropertyNames">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Profile.PropertyValuesString">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Profile.PropertyValuesBinary">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Profile.LastUpdatedDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Profile.aspnet_Users">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Profile.aspnet_UsersReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:msapps.aspnet_Profile">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:msapps.aspnet_Roles.Createaspnet_Roles(System.Guid,System.Guid,System.String,System.String)">
+	<summary>
+ Create a new aspnet_Roles object.
+ </summary>
+	<param name="applicationId">Initial value of the ApplicationId property.</param>
+	<param name="roleId">Initial value of the RoleId property.</param>
+	<param name="roleName">Initial value of the RoleName property.</param>
+	<param name="loweredRoleName">Initial value of the LoweredRoleName property.</param>
+</member><member name="P:msapps.aspnet_Roles.ApplicationId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Roles.RoleId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Roles.RoleName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Roles.LoweredRoleName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Roles.Description">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Roles.aspnet_Applications">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Roles.aspnet_ApplicationsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Roles.aspnet_Users">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:msapps.aspnet_Roles">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:msapps.aspnet_SchemaVersions.Createaspnet_SchemaVersions(System.String,System.String,System.Boolean)">
+	<summary>
+ Create a new aspnet_SchemaVersions object.
+ </summary>
+	<param name="feature">Initial value of the Feature property.</param>
+	<param name="compatibleSchemaVersion">Initial value of the CompatibleSchemaVersion property.</param>
+	<param name="isCurrentVersion">Initial value of the IsCurrentVersion property.</param>
+</member><member name="P:msapps.aspnet_SchemaVersions.Feature">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_SchemaVersions.CompatibleSchemaVersion">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_SchemaVersions.IsCurrentVersion">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:msapps.aspnet_SchemaVersions">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:msapps.aspnet_Users.Createaspnet_Users(System.Guid,System.Guid,System.String,System.String,System.Boolean,System.DateTime)">
+	<summary>
+ Create a new aspnet_Users object.
+ </summary>
+	<param name="applicationId">Initial value of the ApplicationId property.</param>
+	<param name="userId">Initial value of the UserId property.</param>
+	<param name="userName">Initial value of the UserName property.</param>
+	<param name="loweredUserName">Initial value of the LoweredUserName property.</param>
+	<param name="isAnonymous">Initial value of the IsAnonymous property.</param>
+	<param name="lastActivityDate">Initial value of the LastActivityDate property.</param>
+</member><member name="P:msapps.aspnet_Users.ApplicationId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Users.UserId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Users.UserName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Users.LoweredUserName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Users.MobileAlias">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Users.IsAnonymous">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Users.LastActivityDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Users.aspnet_Applications">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Users.aspnet_ApplicationsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Users.aspnet_Membership">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Users.aspnet_MembershipReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Users.aspnet_PersonalizationPerUser">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Users.aspnet_Profile">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Users.aspnet_ProfileReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_Users.aspnet_Roles">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:msapps.aspnet_Users">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:msapps.aspnet_WebEvent_Events.Createaspnet_WebEvent_Events(System.String,System.DateTime,System.DateTime,System.String,System.Decimal,System.Decimal,System.Int32,System.Int32,System.String)">
+	<summary>
+ Create a new aspnet_WebEvent_Events object.
+ </summary>
+	<param name="eventId">Initial value of the EventId property.</param>
+	<param name="eventTimeUtc">Initial value of the EventTimeUtc property.</param>
+	<param name="eventTime">Initial value of the EventTime property.</param>
+	<param name="eventType">Initial value of the EventType property.</param>
+	<param name="eventSequence">Initial value of the EventSequence property.</param>
+	<param name="eventOccurrence">Initial value of the EventOccurrence property.</param>
+	<param name="eventCode">Initial value of the EventCode property.</param>
+	<param name="eventDetailCode">Initial value of the EventDetailCode property.</param>
+	<param name="machineName">Initial value of the MachineName property.</param>
+</member><member name="P:msapps.aspnet_WebEvent_Events.EventId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_WebEvent_Events.EventTimeUtc">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_WebEvent_Events.EventTime">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_WebEvent_Events.EventType">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_WebEvent_Events.EventSequence">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_WebEvent_Events.EventOccurrence">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_WebEvent_Events.EventCode">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_WebEvent_Events.EventDetailCode">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_WebEvent_Events.Message">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_WebEvent_Events.ApplicationPath">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_WebEvent_Events.ApplicationVirtualPath">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_WebEvent_Events.MachineName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_WebEvent_Events.RequestUrl">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_WebEvent_Events.ExceptionType">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.aspnet_WebEvent_Events.Details">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:msapps.aspnet_WebEvent_Events">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:msapps.sysdiagram.Createsysdiagram(System.String,System.Int32,System.Int32)">
+	<summary>
+ Create a new sysdiagram object.
+ </summary>
+	<param name="name">Initial value of the name property.</param>
+	<param name="principal_id">Initial value of the principal_id property.</param>
+	<param name="diagram_id">Initial value of the diagram_id property.</param>
+</member><member name="P:msapps.sysdiagram.name">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.sysdiagram.principal_id">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.sysdiagram.diagram_id">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.sysdiagram.version">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.sysdiagram.definition">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:msapps.sysdiagram">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:msapps.vw_aspnet_Applications.Createvw_aspnet_Applications(System.String,System.String,System.Guid)">
+	<summary>
+ Create a new vw_aspnet_Applications object.
+ </summary>
+	<param name="applicationName">Initial value of the ApplicationName property.</param>
+	<param name="loweredApplicationName">Initial value of the LoweredApplicationName property.</param>
+	<param name="applicationId">Initial value of the ApplicationId property.</param>
+</member><member name="P:msapps.vw_aspnet_Applications.ApplicationName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_Applications.LoweredApplicationName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_Applications.ApplicationId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_Applications.Description">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:msapps.vw_aspnet_Applications">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:msapps.vw_aspnet_MembershipUsers.Createvw_aspnet_MembershipUsers(System.Guid,System.Int32,System.Boolean,System.Boolean,System.DateTime,System.DateTime,System.DateTime,System.DateTime,System.Int32,System.DateTime,System.Int32,System.DateTime,System.Guid,System.String,System.Boolean,System.DateTime)">
+	<summary>
+ Create a new vw_aspnet_MembershipUsers object.
+ </summary>
+	<param name="userId">Initial value of the UserId property.</param>
+	<param name="passwordFormat">Initial value of the PasswordFormat property.</param>
+	<param name="isApproved">Initial value of the IsApproved property.</param>
+	<param name="isLockedOut">Initial value of the IsLockedOut property.</param>
+	<param name="createDate">Initial value of the CreateDate property.</param>
+	<param name="lastLoginDate">Initial value of the LastLoginDate property.</param>
+	<param name="lastPasswordChangedDate">Initial value of the LastPasswordChangedDate property.</param>
+	<param name="lastLockoutDate">Initial value of the LastLockoutDate property.</param>
+	<param name="failedPasswordAttemptCount">Initial value of the FailedPasswordAttemptCount property.</param>
+	<param name="failedPasswordAttemptWindowStart">Initial value of the FailedPasswordAttemptWindowStart property.</param>
+	<param name="failedPasswordAnswerAttemptCount">Initial value of the FailedPasswordAnswerAttemptCount property.</param>
+	<param name="failedPasswordAnswerAttemptWindowStart">Initial value of the FailedPasswordAnswerAttemptWindowStart property.</param>
+	<param name="applicationId">Initial value of the ApplicationId property.</param>
+	<param name="userName">Initial value of the UserName property.</param>
+	<param name="isAnonymous">Initial value of the IsAnonymous property.</param>
+	<param name="lastActivityDate">Initial value of the LastActivityDate property.</param>
+</member><member name="P:msapps.vw_aspnet_MembershipUsers.UserId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_MembershipUsers.PasswordFormat">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_MembershipUsers.MobilePIN">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_MembershipUsers.Email">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_MembershipUsers.LoweredEmail">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_MembershipUsers.PasswordQuestion">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_MembershipUsers.PasswordAnswer">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_MembershipUsers.IsApproved">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_MembershipUsers.IsLockedOut">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_MembershipUsers.CreateDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_MembershipUsers.LastLoginDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_MembershipUsers.LastPasswordChangedDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_MembershipUsers.LastLockoutDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_MembershipUsers.FailedPasswordAttemptCount">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_MembershipUsers.FailedPasswordAttemptWindowStart">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_MembershipUsers.FailedPasswordAnswerAttemptCount">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_MembershipUsers.FailedPasswordAnswerAttemptWindowStart">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_MembershipUsers.Comment">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_MembershipUsers.ApplicationId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_MembershipUsers.UserName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_MembershipUsers.MobileAlias">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_MembershipUsers.IsAnonymous">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_MembershipUsers.LastActivityDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:msapps.vw_aspnet_MembershipUsers">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:msapps.vw_aspnet_Profiles.Createvw_aspnet_Profiles(System.Guid,System.DateTime)">
+	<summary>
+ Create a new vw_aspnet_Profiles object.
+ </summary>
+	<param name="userId">Initial value of the UserId property.</param>
+	<param name="lastUpdatedDate">Initial value of the LastUpdatedDate property.</param>
+</member><member name="P:msapps.vw_aspnet_Profiles.UserId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_Profiles.LastUpdatedDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_Profiles.DataSize">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:msapps.vw_aspnet_Profiles">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:msapps.vw_aspnet_Roles.Createvw_aspnet_Roles(System.Guid,System.Guid,System.String,System.String)">
+	<summary>
+ Create a new vw_aspnet_Roles object.
+ </summary>
+	<param name="applicationId">Initial value of the ApplicationId property.</param>
+	<param name="roleId">Initial value of the RoleId property.</param>
+	<param name="roleName">Initial value of the RoleName property.</param>
+	<param name="loweredRoleName">Initial value of the LoweredRoleName property.</param>
+</member><member name="P:msapps.vw_aspnet_Roles.ApplicationId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_Roles.RoleId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_Roles.RoleName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_Roles.LoweredRoleName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_Roles.Description">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:msapps.vw_aspnet_Roles">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:msapps.vw_aspnet_Users.Createvw_aspnet_Users(System.Guid,System.Guid,System.String,System.String,System.Boolean,System.DateTime)">
+	<summary>
+ Create a new vw_aspnet_Users object.
+ </summary>
+	<param name="applicationId">Initial value of the ApplicationId property.</param>
+	<param name="userId">Initial value of the UserId property.</param>
+	<param name="userName">Initial value of the UserName property.</param>
+	<param name="loweredUserName">Initial value of the LoweredUserName property.</param>
+	<param name="isAnonymous">Initial value of the IsAnonymous property.</param>
+	<param name="lastActivityDate">Initial value of the LastActivityDate property.</param>
+</member><member name="P:msapps.vw_aspnet_Users.ApplicationId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_Users.UserId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_Users.UserName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_Users.LoweredUserName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_Users.MobileAlias">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_Users.IsAnonymous">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_Users.LastActivityDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:msapps.vw_aspnet_Users">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:msapps.vw_aspnet_UsersInRoles.Createvw_aspnet_UsersInRoles(System.Guid,System.Guid)">
+	<summary>
+ Create a new vw_aspnet_UsersInRoles object.
+ </summary>
+	<param name="userId">Initial value of the UserId property.</param>
+	<param name="roleId">Initial value of the RoleId property.</param>
+</member><member name="P:msapps.vw_aspnet_UsersInRoles.UserId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_UsersInRoles.RoleId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:msapps.vw_aspnet_UsersInRoles">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:msapps.vw_aspnet_WebPartState_Paths.Createvw_aspnet_WebPartState_Paths(System.Guid,System.Guid,System.String,System.String)">
+	<summary>
+ Create a new vw_aspnet_WebPartState_Paths object.
+ </summary>
+	<param name="applicationId">Initial value of the ApplicationId property.</param>
+	<param name="pathId">Initial value of the PathId property.</param>
+	<param name="path">Initial value of the Path property.</param>
+	<param name="loweredPath">Initial value of the LoweredPath property.</param>
+</member><member name="P:msapps.vw_aspnet_WebPartState_Paths.ApplicationId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_WebPartState_Paths.PathId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_WebPartState_Paths.Path">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_WebPartState_Paths.LoweredPath">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:msapps.vw_aspnet_WebPartState_Paths">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:msapps.vw_aspnet_WebPartState_Shared.Createvw_aspnet_WebPartState_Shared(System.Guid,System.DateTime)">
+	<summary>
+ Create a new vw_aspnet_WebPartState_Shared object.
+ </summary>
+	<param name="pathId">Initial value of the PathId property.</param>
+	<param name="lastUpdatedDate">Initial value of the LastUpdatedDate property.</param>
+</member><member name="P:msapps.vw_aspnet_WebPartState_Shared.PathId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_WebPartState_Shared.DataSize">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_WebPartState_Shared.LastUpdatedDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:msapps.vw_aspnet_WebPartState_Shared">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:msapps.vw_aspnet_WebPartState_User.Createvw_aspnet_WebPartState_User(System.DateTime)">
+	<summary>
+ Create a new vw_aspnet_WebPartState_User object.
+ </summary>
+	<param name="lastUpdatedDate">Initial value of the LastUpdatedDate property.</param>
+</member><member name="P:msapps.vw_aspnet_WebPartState_User.PathId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_WebPartState_User.UserId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_WebPartState_User.DataSize">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:msapps.vw_aspnet_WebPartState_User.LastUpdatedDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:msapps.vw_aspnet_WebPartState_User">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="F:msapps._Default.gv">
+	<summary>
+gv control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:msapps._Default.edSchemaVersions">
+	<summary>
+edSchemaVersions control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:msapps.My.MyWebExtension.Application">
+	<summary>
+ Returns information about the current application.
+ </summary>
+</member><member name="P:msapps.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:msapps.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:msapps.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:msapps.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:msapps.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="P:msapps.My.MyWebExtension.WebServices">
+	<summary>
+ Provides access to WebServices added to this project.
+ </summary>
+</member><member name="T:msapps.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:msapps.Login.RegisterHyperLink">
+	<summary>
+RegisterHyperLink control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:msapps.Login.LoginUser">
+	<summary>
+LoginUser control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:msapps.Site.HeadContent">
+	<summary>
+HeadContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:msapps.Site.MasterPageScriptManager">
+	<summary>
+MasterPageScriptManager control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:msapps.Site.HeadLoginView">
+	<summary>
+HeadLoginView control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:msapps.Site.HeadHomeLink">
+	<summary>
+HeadHomeLink control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:msapps.Site.HeadAboutLink">
+	<summary>
+HeadAboutLink control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:msapps.Site.MainContent">
+	<summary>
+MainContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:msapps.ChangePassword.ChangeUserPassword">
+	<summary>
+ChangeUserPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:msapps.Register.RegisterUser">
+	<summary>
+RegisterUser control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:msapps.Register.RegisterUserWizardStep">
+	<summary>
+RegisterUserWizardStep control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

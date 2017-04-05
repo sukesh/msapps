@@ -1,0 +1,8 @@
+c:\users\administrator\documents\visual studio 2010\Projects\msapps\bin\msapps.dll
+c:\users\administrator\documents\visual studio 2010\Projects\msapps\bin\msapps.pdb
+c:\users\administrator\documents\visual studio 2010\Projects\msapps\bin\msapps.xml
+c:\users\administrator\documents\visual studio 2010\Projects\msapps\obj\Debug\msapps.Resources.resources
+c:\users\administrator\documents\visual studio 2010\Projects\msapps\obj\Debug\msapps.vbproj.GenerateResource.Cache
+c:\users\administrator\documents\visual studio 2010\Projects\msapps\obj\Debug\msapps.dll
+c:\users\administrator\documents\visual studio 2010\Projects\msapps\obj\Debug\msapps.xml
+c:\users\administrator\documents\visual studio 2010\Projects\msapps\obj\Debug\msapps.pdb
